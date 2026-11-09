@@ -1,0 +1,16 @@
+name: ExstartShops
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+softdepend:
+  - GriefPrevention
+  - EconomyX
+commands:
+  loja:
+    description: Opens and manages shops.
+    usage: /loja [criar <name>]
+    aliases: []
+permissions:
+  exstartshops.admin:
+    description: Allows administration of every shop.
+    default: op
